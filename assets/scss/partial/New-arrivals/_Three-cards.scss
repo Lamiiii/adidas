@@ -1,0 +1,38 @@
+#Three-cards {
+  margin-top: 50px;
+
+  h4{
+    font-size: 30px;
+  }
+  .imgg {
+    img {
+      margin: 0px;
+    }
+  }
+  .dollars {
+    position: relative;
+    top: -7px;
+    left: -250px;
+    background-color: $white-color;
+  }
+
+  .icon {
+    svg {
+      position: relative;
+      z-index: 2;
+      top: -230px;
+      left: 200px;
+    }
+
+    svg:hover {
+      fill: black;
+    }
+  }
+
+  .text {
+    margin-top: -40px;
+    padding: 0 10px;
+
+    line-height: 5px;
+  }
+}

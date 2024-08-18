@@ -1,0 +1,47 @@
+#cards{
+
+ .col-3{
+  
+  .imgg{
+
+    .text-border{
+
+      &:hover{
+        border: 1px solid black;
+      }
+    }
+    img{
+      margin: 0px;
+      &:hover{
+        border: none;
+      }
+    }
+    .dollars{
+      position: relative;
+      top: -38px;
+      left: 10px;
+      background-color: $white-color;
+      padding: 5px;
+    }
+
+    .icon {
+      svg {
+        position: relative;
+        z-index: 2;
+        left: 250px;
+        top: -290px;
+      }
+
+      svg:hover {
+        fill: black;
+      }
+    }
+
+    .text{
+      margin-top: -60px;
+      padding: 0 10px;
+    }
+  }  
+  }
+ }
+

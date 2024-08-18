@@ -1,0 +1,36 @@
+#for-men {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+
+  p {
+    font-size: 15px;
+    color: gray;
+    margin-top: -20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    line-height: 30px;
+  }
+
+  .text-one {
+    h4 {
+      font-size: 30px;
+      font-family: $font-family;
+    }
+  }
+
+  .text-two {
+    margin-top: -10px;
+    h4 {
+      font-size: 20px;
+      color: rgb(83, 82, 82);
+      font-family: $font-family;
+    }
+  }
+
+  .text-three {
+    margin-top: -10px;
+    font-size: 20px;
+    font-family: $font-family;
+    color: rgb(83, 82, 82);
+  }
+}
